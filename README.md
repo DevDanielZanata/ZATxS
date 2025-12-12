@@ -54,19 +54,19 @@ ZATxS [directory] [options]
 ### Basic examples
 ```
 # Interactive mode
-python ZATxS.py
+ZATxS
 
 # Direct folder path
-python ZATxS.py "C:\\ECU\\DLLs"
+ZATxS "C:\\ECU\\DLLs"
 
 # Drag-and-drop style
-python ZATxS.py "C:\\My Files\\DLLs"
+ZATxS "C:\\My Files\\DLLs"
 
 # Custom strings (comma-separated)
-python ZATxS.py "C:\\DLLs" -s Seed,Calc,Seed2Key,UnlockCode
+ZATxS "C:\\DLLs" -s Seed,UnlockCode
 
 # Custom strings + custom report name
-python ZATxS.py ./dll_folder -s MasterKey,CalculateKey -o report.txt
+ZATxS ./dll_folder -s MasterKey,CalculateKey -o report.txt
 ```
 
 ## Command-line options
@@ -77,10 +77,7 @@ python ZATxS.py ./dll_folder -s MasterKey,CalculateKey -o report.txt
 | -o, --output | Custom filename for the generated report |
 | -h, --help | Show help message and exit |
 
-If no `--strings` argument is provided, the tool uses the default values:
-```
-Seed, Calc, Seed2Key, CalculateKey
-```
+If no `--strings` argument is provided, the tool uses the default values.
 
 ## Output
 Real-time colored results are printed in the terminal, and a detailed text report is generated automatically, for example:
