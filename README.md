@@ -23,7 +23,7 @@ ZATxS is a fast and lightweight command-line tool designed to search for specifi
 - Custom target strings via command-line arguments
 - Colored terminal output with clean, readable formatting
 - Automatic detailed report generation (timestamped TXT)
-- Cross-platform (Windows, Linux, macOS)
+- Cross-platform (Windows)
 - Zero external dependencies
 
 ## Installation
