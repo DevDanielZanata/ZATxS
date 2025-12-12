@@ -44,7 +44,7 @@ git clone https://github.com/DevDanielZanata/ZATxS.git
 cd ZATxS
 ```
 
-(Optional) Add `ZATxS.exe` or `ZATxS.py` to a folder in your PATH manually if you do not wish to use `Adicionar_PATH.py`.
+(Optional) Add `ZATxS.exe` to a folder in your PATH manually if you do not wish to use `Adicionar_PATH.py`.
 
 ## Usage
 ```
