@@ -1,6 +1,6 @@
 # ZATxS – Advanced DLL String Hunter
 
-ZATxS is a fast and lightweight command-line tool designed to search for specific strings inside Windows DLL and executable files. It is especially useful for reverse engineering, ECU tuning research, seed-key algorithm hunting, and general binary string extraction tasks.
+ZATxS is a fast and lightweight command-line tool designed to search for specific strings inside Windows DLL and executable files. It is especially useful for reverse engineering, algorithm hunting, and general binary string extraction tasks.
 
 ## Demonstrations
 
